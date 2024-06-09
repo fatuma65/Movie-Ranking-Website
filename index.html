@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+
+    <title>Movie Ranking Website</title>
+  </head>
+  <body>
+    <header
+      class="flex lg:flex-row justify-around lg:items-center bg-rose-900 text-white fixed w-full top-0 left-0 z-10 overscroll-contain">
+      <h1 class="text-3xl font-extrabold">MRP</h1>
+      <nav>
+        <ul class="flex p-2 text-base">
+          <li class="p-2"><a href="#">HOME</a></li>
+          <li class="p-2"><a href="./genres.html">GENRES</a></li>
+          <li class="p-2"><a href="./favourites.html">FAVOURITES</a></li>
+          <li class="p-2"><a href="./contact.html">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="bg-blue-950 text-white">
+      <section class="container mx-auto px-4 py-8 text-center">
+        <h1 class="text-4xl font-bold mb-4 mt-14">Movie Ranking Site</h1>
+        <p class="text-xl leading-relaxed">
+          Welcome to our curated collection of top-rated time, where every movie
+          <br />
+          lover can find something to cherish our comprehensive rankings abd
+          reviews <br />
+          are here to guide you through the mesmarzing world of cinema.
+        </p>
+        <img
+          src="./images/unnamed.png"
+          alt="sportfolio image"
+          class="mb-8 mx-auto max-w-full h-auto mt-8" />
+      </section>
+
+      <section class="flex flex-col lg:justify-center lg:items-center p-5">
+        <h1 class="text-4xl font-bold text-center">Movie Genres</h1>
+        <div class="lg:flex p-8 md:shrink-0">
+          <div class="m-2 lg:max-w-96">
+            <img
+              src="./images/deadpool.jpg"
+              alt="deadpool flyer image"
+              class="h-80 w-full object-cover lg:w-64" />
+            <h3 class="font-semibold text-xl text-center bg-slate-600 p-4">
+              Action
+            </h3>
+          </div>
+          <div class="m-2 max-w-96">
+            <img
+              src="./images/dune.jpg"
+              alt="dune flyer image"
+              class="w-full object-cover lg:w-64 h-80" />
+            <h3 class="font-semibold text-xl text-center bg-slate-600 p-4">
+              Sci-Fi
+            </h3>
+          </div>
+          <div class="m-2 max-w-96">
+            <img
+              src="./images/jumangi.jpg"
+              alt="jumangi flyer image"
+              class="h-80 w-full object-cover lg:w-64" />
+            <h3 class="font-semibold text-xl text-center bg-slate-600 p-4">
+              Adventure
+            </h3>
+          </div>
+          <div class="m-2">
+            <img
+              src="./images/after.jpg"
+              alt="after flyer image"
+              class="h-80 w-full object-cover lg:w-64" />
+            <h3 class="font-semibold text-xl text-center bg-slate-600 p-4">
+              Romance
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="lg:flex justify-center items-center p-5 m-auto flex-col">
+        <h1 class="text-4xl font-bold text-center">Top Five Movies</h1>
+        <div class="lg:flex p-6">
+          <div class="m-2 lg:w-1/2 w-full lg:flex">
+            <img
+              src="./images/aqua-man.jpg"
+              alt="aqua man flyer image"
+              class="h-80 w-full object-cover lg:h-full lg:w-64" />
+            <div
+              class="bg-slate-600 lg:w-64 w-full flex flex-col items-center justify-center shadow-xl lg:w-64 w-full">
+              <button
+                class="p-2 font-extrabold text-2xl text-black bg-slate-300 btn1">
+                1
+              </button>
+              <h3 class="p-6 font-bold">Aqua Man</h3>
+
+              <a href="https://www.youtube.com/watch?v=zL2BtTdIuLI">
+                <button
+                  class="btn btn-dark text-center text-base rounded-3xl badge-outline">
+                  Watch Now
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="m-2 lg:w-1/2 w-full lg:flex">
+            <img
+              src="./images/mad-max.jpg"
+              alt="mad-max flyer image"
+              class="h-80 w-full object-cover lg:h-full lg:w-64" />
+            <div
+              class="bg-slate-600 items-center flex flex-col justify-center shadow-xl lg:w-64 w-full">
+              <button
+                class="p-2 font-extrabold text-2xl text-black bg-slate-300 btn1">
+                2
+              </button>
+              <h3 class="p-6 font-bold">Mad Max</h3>
+
+              <a href="https://www.youtube.com/watch?v=YWNWi-ZWL3c">
+                <button
+                  class="btn btn-dark text-center text-base rounded-3xl badge-outline">
+                  Watch Now
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 ml-1 lg:flex">
+          <div class="m-1 lg:flex lg:w-1/2 w-full">
+            <img
+              src="./images/noah.jpg"
+              alt="noah's fyler image"
+              class="h-80 w-full object-cover lg:h-full lg:w-64" />
+            <div
+              class="bg-slate-600 items-center flex flex-col justify-center shadow-xl lg:w-64 w-full">
+              <button
+                class="p-2 font-extrabold text-2xl text-black bg-slate-300 btn1">
+                3
+              </button>
+              <h3 class="p-6 font-bold">Noah</h3>
+
+              <a href="https://www.youtube.com/watch?v=1T1OOlRY2gM">
+                <button
+                  class="btn btn-dark text-center text-base rounded-3xl badge-outline">
+                  Watch Now
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="m-1 lg:flex shadow-xl">
+            <img
+              src="./images/oppenheinmer.jpg"
+              alt="oppenheinmer flyer"
+              class="h-80 w-full object-cover md:h-full md:w-64" />
+            <div
+              class="bg-slate-600 items-center flex flex-col justify-center lg:w-64 w-full">
+              <button
+                class="p-2 font-extrabold text-2xl text-black bg-slate-300 p-0 btn1">
+                4
+              </button>
+              <h3 class="p-6 font-bold">Oppemheimmer</h3>
+
+              <a href="https://www.youtube.com/watch?v=RJ2EgeRTJsE">
+                <button
+                  class="btn btn-dark text-center text-base rounded-3xl badge-outline">
+                  Watch Now
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 ml-1 lg:flex">
+          <div class="m-2 lg:flex shadow-xl">
+            <img
+              src="./images/heart-of-stone.jpg"
+              alt="Heart of stone flyer"
+              class="h-80 w-full object-cover md:h-full md:w-64" />
+            <div
+              class="bg-slate-600 items-center flex flex-col justify-center lg:w-64 w-full">
+              <button
+                class="p-2 font-extrabold text-2xl text-black bg-slate-300 p-0 rounded-3xl btn1">
+                5
+              </button>
+              <h3 class="p-6 font-bold">Heart Of Stone</h3>
+
+              <a href="https://www.youtube.com/watch?v=XuDwndGaCFo">
+                <button
+                  class="btn btn-dark text-center text-base rounded-3xl badge-outline">
+                  Watch Now
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="p-10 bg-slate-700 text-white text-base-content">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap justify-around">
+          <div class="m-4 flex flex-col">
+            <h6 class="footer-title font-semibold text-xl text-white">
+              Movie Links
+            </h6>
+            <a class="link link-hover">MRP Homepage</a>
+            <a class="link link-hover">MRP Latest Reviews</a>
+            <a href="./genres.html" class="link link-hover">Browse Movies</a>
+            <a class="link link-hover">Find New Channels</a>
+          </div>
+          <nav class="m-4 flex flex-col">
+            <h6 class="footer-title font-bold text-2xl">MRP</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover" href="./contact.html">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </nav>
+          <nav class="m-4">
+            <h6 class="footer-title font-semibold text-xl">Social</h6>
+            <div class="grid grid-flow-col gap-4">
+              <a href="https://x.com/?lang=en&mx=2"
+                ><i class="bx bxl-twitter fill-current text-3xl"></i
+              ></a>
+              <a href="https://www.youtube.com/"
+                ><i class="bx bxl-youtube fill-current text-3xl"></i
+              ></a>
+              <a href="https://www.facebook.com/"
+                ><i class="bx bxl-facebook fill-current text-3xl"></i
+              ></a>
+            </div>
+          </nav>
+        </div>
+        <hr class="block w-full lg:w-3/4 m-auto" />
+
+        <div class="flex flex-col lg:flex-row p-4 justify-center items-center">
+          <p class="p-2 text-xl">Subscribe to our newsletter</p>
+          <input
+            type="email"
+            class="p-2 m-2 w-full lg:w-72 text-black"
+            placeholder="Enter your email" />
+          <button class="btn btn-dark text-center text-base" id="submit">
+            Submit
+          </button>
+        </div>
+      </div>
+    </footer>
+    <script>
+      let added = document.getElementById("submit");
+      function addNews() {
+        alert("Congragulations, you've been added to our newsletter");
+      }
+      added.addEventListener("click", addNews);
+    </script>
+  </body>
+</html>
