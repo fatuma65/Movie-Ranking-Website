@@ -8,3 +8,29 @@ body {
     border-radius: 100%;
     padding: 8px;
 }
+#slide1 {
+    background-image: url(./images/ram.jpg);
+    height: 100vh;
+    opacity: 0.8;
+    margin-top: -35px;
+}
+
+#slide2 {
+    background-image: url(./images/The-Fall-Guy-Top.jpg);
+    height: 100vh;
+    opacity: 0.9;
+    margin-top: -35px;
+}
+#slide3 {
+    background-image: url(./images/damsel.webp);
+    height: 100vh;
+    opacity: 0.9;
+    margin-top: -35px;
+
+}
+#slide4 {
+    background-image: url(./images/apes.jpg);
+    height: 100vh;
+    opacity: 0.9;
+    margin-top: -35px;
+}
