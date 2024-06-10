@@ -20,12 +20,11 @@
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet" />
-
     <title>Movie Ranking Website</title>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <header
-      class="flex lg:flex-row justify-around lg:items-center bg-rose-900 text-white fixed w-full top-0 left-0 z-10 overscroll-contain">
+      class="flex lg:flex-row justify-around lg:items-center text-white fixed w-full top-0 left-0 z-10">
       <h1 class="text-3xl font-extrabold">MRP</h1>
       <nav>
         <ul class="flex p-2 text-base">
@@ -37,26 +36,123 @@
       </nav>
     </header>
 
-    <main class="bg-blue-950 text-white">
-      <section class="container mx-auto px-4 py-8 text-center">
-        <h1 class="text-4xl font-bold mb-4 mt-14">Movie Ranking Site</h1>
-        <p class="text-xl leading-relaxed">
-          Welcome to our curated collection of top-rated time, where every movie
-          <br />
-          lover can find something to cherish our comprehensive rankings abd
-          reviews <br />
-          are here to guide you through the mesmarzing world of cinema.
-        </p>
-        <img
-          src="./images/unnamed.png"
-          alt="sportfolio image"
-          class="mb-8 mx-auto max-w-full h-auto mt-8" />
+    <main>
+      <section class="w-full mx-auto px-0 py-8 ml-0 text-center carousel">
+        <div
+          class="carousel-item w-full relative pt-0 bg-center bg-cover"
+          id="slide1">
+          <div class="mx-auto">
+            <h1 class="text-4xl font-bold mb-4 mt-52 text-white">
+              Movie Ranking Site
+            </h1>
+            <p class="text-xl leading-relaxed text-white">
+              Welcome to our curated collection of top-rated time, where every
+              movie
+              <br />
+              lover can find something to cherish our comprehensive rankings abd
+              reviews <br />
+              are here to guide you through the mesmerizing world of cinema.
+            </p>
+            <a href="./genres.html"
+              ><button class="btn btn-primary mt-4 text-xl">
+                Rate Movies
+              </button></a
+            >
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div
+          class="carousel-item w-full relative bg-center bg-cover"
+          id="slide2">
+          <div class="mx-auto">
+            <h1 class="text-4xl font-bold mb-4 mt-52 text-white">
+              Movie Ranking Site
+            </h1>
+            <p class="text-xl leading-relaxed text-white">
+              Welcome to our curated collection of top-rated time, where every
+              movie
+              <br />
+              lover can find something to cherish our comprehensive rankings abd
+              reviews <br />
+              are here to guide you through the mesmerizing world of cinema.
+            </p>
+            <a href="./genres.html"
+              ><button class="btn btn-primary mt-4 text-xl">
+                Rate Movies
+              </button></a
+            >
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div
+          class="carousel-item w-full relative bg-center bg-cover"
+          id="slide3">
+          <div class="mx-auto">
+            <h1 class="text-4xl font-bold mb-4 mt-52 text-white">
+              Movie Ranking Site
+            </h1>
+            <p class="text-xl leading-relaxed text-white">
+              Welcome to our curated collection of top-rated time, where every
+              movie
+              <br />
+              lover can find something to cherish our comprehensive rankings abd
+              reviews <br />
+              are here to guide you through the mesmerizing world of cinema.
+            </p>
+            <a href="./genres.html"
+              ><button class="btn btn-primary mt-4 text-xl">
+                Rate Movies
+              </button></a
+            >
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div
+          class="carousel-item w-full relative bg-center bg-cover"
+          id="slide4">
+          <div class="mx-auto">
+            <h1 class="text-4xl font-bold mb-4 mt-52 text-white">
+              Movie Ranking Site
+            </h1>
+            <p class="text-xl leading-relaxed text-white">
+              Welcome to our curated collection of top-rated time, where every
+              movie
+              <br />
+              lover can find something to cherish our comprehensive rankings abd
+              reviews <br />
+              are here to guide you through the mesmerizing world of cinema.
+            </p>
+            <a href="./genres.html"
+              ><button class="btn btn-primary mt-4 text-xl">
+                Rate Movies
+              </button></a
+            >
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
       </section>
 
       <section class="flex flex-col lg:justify-center lg:items-center p-5">
         <h1 class="text-4xl font-bold text-center">Movie Genres</h1>
-        <div class="lg:flex p-8 md:shrink-0">
-          <div class="m-2 lg:max-w-96 transition hover:duration-700 hover:translate-y-1 ">
+        <div class="lg:flex p-8 md:shrink-0 text-white">
+          <div
+            class="m-2 lg:max-w-96 transition hover:duration-700 hover:translate-y-1">
             <a href="./action.html">
               <img
                 src="./images/deadpool.jpg"
@@ -67,7 +163,8 @@
               Action
             </h3>
           </div>
-          <div class="m-2 max-w-96 transition hover:duration-700 hover:translate-y-1">
+          <div
+            class="m-2 max-w-96 transition hover:duration-700 hover:translate-y-1">
             <a href="./sci-fi.html">
               <img
                 src="./images/dune.jpg"
@@ -78,7 +175,8 @@
               Sci-Fi
             </h3>
           </div>
-          <div class="m-2 max-w-96 transition hover:duration-700 hover:translate-y-1">
+          <div
+            class="m-2 max-w-96 transition hover:duration-700 hover:translate-y-1">
             <a href="./adventure.html">
               <img
                 src="./images/jumangi.jpg"
@@ -103,9 +201,12 @@
         </div>
       </section>
 
-      <section class="lg:flex justify-center items-center p-5 m-auto flex-col">
-        <h1 class="text-4xl font-bold text-center">Top Five Movies</h1>
-        <div class="lg:flex p-6">
+      <section
+        class="lg:flex justify-center items-center p-5 m-auto flex-col bg-black">
+        <h1 class="text-4xl font-bold text-center text-white">
+          Top Five Movies
+        </h1>
+        <div class="lg:flex p-6 text-white">
           <div class="m-2 lg:w-1/2 w-full lg:flex">
             <img
               src="./images/aqua-man.jpg"
@@ -150,7 +251,7 @@
           </div>
         </div>
 
-        <div class="p-6 ml-1 lg:flex">
+        <div class="p-6 ml-1 lg:flex text-white">
           <div class="m-1 lg:flex lg:w-1/2 w-full">
             <img
               src="./images/noah.jpg"
@@ -196,7 +297,7 @@
           </div>
         </div>
 
-        <div class="p-6 ml-1 lg:flex">
+        <div class="p-6 ml-1 lg:flex text-white">
           <div class="m-2 lg:flex shadow-xl">
             <img
               src="./images/heart-of-stone.jpg"
