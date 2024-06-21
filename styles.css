@@ -14,7 +14,10 @@ body {
     opacity: 0.8;
     margin-top: -35px;
 }
-
+.container5 .btn {
+    /* outline: none; */
+    border: none;
+}
 #slide2 {
     background-image: url(./images/The-Fall-Guy-Top.jpg);
     height: 100vh;
